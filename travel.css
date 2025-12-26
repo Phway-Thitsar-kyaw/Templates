@@ -853,13 +853,18 @@
     color: rgba(255,255,255,.86);
   }
 
-  .learn{
+  .learn a{
     display:inline-flex;
     align-items:center;
     gap:8px;
     color: rgba(255,255,255,.92);
     font-weight:600;
     white-space:nowrap;
+    cursor: pointer;
+    text-decoration:none;
+  }
+  .learn a:hover .arrow{
+    background: rgba(255,255,255,.22);
   }
 
   .arrow{
