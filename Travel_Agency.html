@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scapia Travel Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="travel.css"></link>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+         <div class="nav">
+            <div class="logo">SCAPIA</div>
+    
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#trip" class="active">Trip</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+                <div class="language-selector">
+                    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path
+                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                    </svg>
+                    <span>EN</span>
+                </div>
+    
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+         </div>
+        </div>
+    </nav>
+    <section class="container hero-section">
+        <div class="hero-grid">
+            <h1>Find Your<br>Perfect Journey</h1>
+            <p>Explore curated trips across the globe, designed for every type of traveler.</p>
+        </div>
+    
+        <div class="hero-image">
+            <img src="img/heading.jpg"
+                alt="Mountain Lake">
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="hero-grid">
+            <h2>
+                Explore Handpicked Destinations<br>
+                And Find The Perfect Trip For You
+            </h2>
+            <p>
+                Embark on unforgettable journeys with Scapia as your guide.
+            </p>
+        </div>
+        <div class="dest-wrapper">
+            <div class="dest-grid" id="destGrid">
+                <div class="dest-card large">
+                    <img src="img/family_holidays.jpg" alt=""/>
+                    <div class="dest-text">
+                        <h3>Family Holidays</h3>
+                        <p>Fun-filled trips everyone in the family will love.</p>
+                    </div>
+                </div>
+        
+                <div class="dest-card large">
+                    <img src="img/romantic_gateways.jpg" alt=""/>
+                    <div class="dest-text">
+                        <h3>Romantic Getaways</h3>
+                        <p>Create unforgettable memories with your loved one.</p>
+                    </div>
+                </div>
+        
+                <div class="dest-card wide">
+                    <img src="img/advanger_escape.jpg" alt=""/>
+                    <div class="dest-text">
+                        <h3>Adventure Escapes</h3>
+                        <p>Conquer mountains, jungles, and untamed lands.</p>
+                    </div>
+                </div>
+        
+                <div class="dest-card">
+                    <img src="img/culture_journey.jpg" alt=""/>
+                    <div class="dest-text">
+                        <h3>Cultural Journeys</h3>
+                        <p>Immerse yourself in rich traditions and heritage.</p>
+                    </div>
+                </div>
+        
+                <div class="dest-card">
+                    <img src="img/island_retreats.jpg" alt=""/>
+                    <div class="dest-text">
+                        <h3>Island Retreats</h3>
+                        <p>Relax on sun-drenched islands.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="hero-grid">
+            <h2>
+                Must-Try Activities<br>
+                For Every Traveler
+            </h2>
+            <p>
+                Make every moment unforgettable with these top experiences.
+            </p>
+        </div>
+        <div class="grid">
+            <div class="text">
+                <h3>Sunset Sailing</h3>
+                <p>Cruise along beautiful coastlines while enjoying breathtaking sunsets.</p>
+            </div>
+        
+            <div class="card">
+                <img src="img/sunset_sailing.jpg" alt="Sunset Sailing" />
+            </div>
+        
+            <div class="text">
+                <h3>Cultural Immersion</h3>
+                <p>Connect with local communities and traditions in meaningful ways.</p>
+            </div>
+        
+            <div class="card">
+                <img src="img/cultural_immersion.jpg" alt="Cultural Immersion" />
+            </div>
+        
+            <div class="card">
+                <img src="img/jungle_trekking.jpg" alt="Jungle Trekking" />
+            </div>
+        
+            <div class="text">
+                <h3>Jungle Trekking</h3>
+                <p>Venture into lush rainforests and discover nature’s hidden wonders.</p>
+            </div>
+        
+            <div class="card">
+                <img src="img/wildlife_safaris.jpg" alt="Wildlife Safari" />
+            </div>
+        
+            <div class="text">
+                <h3>Wildlife Safaris</h3>
+                <p>Experience the thrill of spotting wildlife up close in their natural habitats.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+    <div class="countries-section">
+        <div class="content">
+            <h2>Explore The World’s Most Popular Travel Destinations</h2>
+            <p>Make every moment unforgettable with these top experiences.</p>
+        </div>
+
+        <div class="map-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg" class="world-map" alt="World Map">
+            
+            <svg class="map-path" viewBox="0 0 500 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 120 Q 250 -50 450 150" stroke="#ccc" stroke-width="2" stroke-dasharray="5,5" />
+            </svg>
+
+            <div class="travel-card card-usa">
+                <div class="flag"><img src="https://flagcdn.com/us.svg" alt="USA"></div>
+                <div class="card-body">
+                    <img src="img/colorado.jpg" alt="Colorado">
+                    <h3>Colorado, United States</h3>
+                    <p>Discover the breathtaking landscapes of the mountains.</p>
+                </div>
+            </div>
+
+            <div class="travel-card card-france">
+                <div class="flag"><img src="https://flagcdn.com/fr.svg" alt="France"></div>
+                <div class="card-body">
+                    <img src="img/paris.jpg" alt="Paris">
+                    <h3>Paris, France</h3>
+                    <p>Step into the timeless elegance of Paris.</p>
+                </div>
+            </div>
+
+            <div class="travel-card card-indonesia">
+                <div class="flag"><img src="https://flagcdn.com/id.svg" alt="Indonesia"></div>
+                <div class="card-body">
+                    <img src="img/bali.jpg" alt="Bali">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Uncover the enchanting diversity of Bali.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="container">
+    <div class="hero-grid">
+        <h2>Explore Unmissable Travel<br>Deals Tailored Just For You</h2>
+        <p>Discover exclusive just for you from last-minute escapes to premium getaways.</p>
+    </div>
+    <div class="hero">
+      <div class="hero_badge">Limited slots available — reserve your dream trip today</div>
+
+      <div class="hero_body">
+        <div>
+          <h2 class="hero_title">Travel More<br>Spend Less</h2>
+        </div>
+
+        <div class="deal">
+          <p class="deal_label">Discount up to</p>
+          <div class="deal_value">
+            <div class="deal_number">40</div>
+            <div class="deal_percent">%</div>
+          </div>
+          <p class="deal_note">*Flexible booking and cancellation policies</p>
+        </div>
+      </div>
+      <a class="hero_cta" href="#">Book Now</a>
+    </div>
+    </section>
+    <section class="container">
+    <div class="cap_title">
+      <h2>Explore All Our Trips</h2>
+      <p>Every journey is carefully crafted to bring your travel dreams to life.</p>
+    </div>
+
+    <div class="trip_grid">
+      <div class="trip_card">
+        <span class="pill">Bali, Indonesia</span>
+        <div class="trip_content">
+          <p class="price">Starting at $1,450</p>
+          <div class="bottom">
+            <span>7 Days, June 15–21, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trip_card">
+        <span class="pill">Rome, Italy</span>
+        <div class="trip_content">
+          <p class="price">Starting at $1,850</p>
+          <div class="bottom">
+            <span>5 Days, July 10–14, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trip_card">
+        <span class="pill">Amalfi Coast, Italy</span>
+        <div class="trip_content">
+          <p class="price">Starting at $2,100</p>
+          <div class="bottom">
+            <span>5 Days, July 3–7, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trip_card">
+        <span class="pill">Marrakech, Morocco</span>
+        <div class="trip_content">
+          <p class="price">Starting at $1,600</p>
+          <div class="bottom">
+            <span>6 Days, September 5–10, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trip_card">
+        <span class="pill">Patagonia, Argentina</span>
+        <div class="trip_content">
+          <p class="price">Starting at $3,200</p>
+          <div class="bottom">
+            <span>10 Days, August 15–25, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trip_card" >
+        <span class="pill">Kyoto, Japan</span>
+        <div class="trip_content">
+          <p class="price">Starting at $1,850</p>
+          <div class="bottom">
+            <span>7 Days, June 12–18, 2030</span>
+            <span class="learn">Learn More <span class="arrow">→</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="bg">
+     <div class="booking">
+     <div class="cap_title">
+        <h2>How To Book Your Adventure</h2>
+        <p>
+            The Scapia experience goes beyond travel — it’s about creating memories for life.
+        </p>
+      </div>
+      <div class="steps">
+        <div class="step s1">
+          <div class="num">01</div>
+          <h3>Explore &amp; Choose</h3>
+          <p>Browse our curated trips and pick your perfect adventure.</p>
+        </div>
+        <div class="step s2">
+          <div class="num">02</div>
+          <h3>Customize Your Trip</h3>
+          <p>Tailor the itinerary to fit your needs and preferences.</p>
+        </div>
+        <div class="step s3">
+          <div class="num">03</div>
+          <h3>Confirm Your Booking</h3>
+          <p>Secure your spot with a simple and quick reservation process.</p>
+        </div>
+        <div class="step s4">
+          <div class="num">04</div>
+          <h3>Pack &amp; Get Ready</h3>
+          <p>Receive your full trip details and preparation checklist.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+  <div class="footer_bg">
+  <main class="page">
+    <section class="footer_hero" aria-label="footer_hero">
+      <h1>Ready For Your Next<br>Adventure?</h1>
+      <p>Let’s start planning your journey today!</p>
+      <button class="btn" type="button">Explore Now</button>
+    </section>
+    <footer class="footer" aria-label="Footer">
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div class="brand">
+            <h3>SCAPIA</h3>
+            <p class="muted">
+              Explore the world effortlessly with Scapia, your trusted travel partner. We bring unforgettable
+              journeys to life with expert planning, personalized services, and a commitment to excellence.
+            </p>
+            <div class="contact">
+              <div class="contact-item">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 21s7-5.1 7-12a7 7 0 1 0-14 0c0 6.9 7 12 7 12Z" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M12 12.2a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Z" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+                456 Explorer Lane, New York, NY 10001
+              </div>
+              <div class="contact-item">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5.5 4.8h3.2l1.2 4.1-1.7 1.4c1.3 2.6 3.5 4.8 6.1 6.1l1.4-1.7 4.1 1.2v3.2c0 1-0.8 1.8-1.8 1.8C11 21.1 2.9 13 2.9 5.6c0-1 0.8-1.8 1.8-1.8Z" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+                +1 (234) 567-8900
+              </div>
+              <div class="contact-item">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4.5 7.5h15v11h-15v-11Z" stroke="currentColor" stroke-width="1.7"/>
+                  <path d="M4.8 7.8 12 13l7.2-5.2" stroke="currentColor" stroke-width="1.7"/>
+                </svg>
+                hello@scapiatravel.com
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="section-title">Quick Links</div>
+            <ul class="links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Destinations</a></li>
+              <li><a href="#">Trips</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="section-title">Follow Us</div>
+            <div class="social-row">
+              <a class="social" href="#" aria-label="Facebook">FB</a>
+              <a class="social" href="#" aria-label="LinkedIn">IN</a>
+              <a class="social" href="#" aria-label="Instagram">IG</a>
+            </div>
+          </div>
+          <div class="newsletter">
+            <p>
+              Get the latest travel deals, tips, and destination inspirations straight to your inbox.
+            </p>
+            <form class="form-row" action="#" method="post">
+              <input type="email" name="email" placeholder="Enter your email" aria-label="Email address" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">2030 Scapia Travel Agency. All rights reserved.</div>
+      </div>
+    </footer>
+  </main>
+  </div>
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
