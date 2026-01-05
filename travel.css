@@ -263,6 +263,8 @@
             overflow: hidden;
             border-radius: 10px;
             flex-shrink: 0;
+            will-change: transform;
+            transform: none;
         }
 
         .dest-card img {
@@ -1236,11 +1238,15 @@
       color: rgba(255,255,255,0.60);
       font-size: .75rem;
     }
+    @media (max-width: 1024px) {
+      .page{
+       min-height: 70vh;
+      }
+    }
     @media (max-width: 768px) {
 
       .page{
         display: block;
-        background: none;
       }
 
       .page::after{
